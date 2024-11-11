@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ProjetoAndroid11_1</string>
+    <string name="nome">Rodrigo Fortunato Martins Neves</string>
+    <string name="ra">1110482313035</string>
+    <string name="itemJogador">Jogador</string>
+    <string name="itemTime">Time</string>
+    <string name="tvInicio">Inicio</string>
+    <string name="etNomeJogador">Nome</string>
+    <string name="etDataNascJogador">DataNasc</string>
+    <string name="etAlturaJogador">Altura</string>
+    <string name="etPesoJogador">Peso</string>
+    <string name="etNomeTime">Nome</string>
+    <string name="etIDJogador">ID</string>
+    <string name="etCodigoTime">Código</string>
+    <string name="etCidadeTime">Cidade</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="btnAtualizar">Atualizar</string>
+    <string name="btnDeletar">Deletar</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="btnListar">Listar Todos</string>
+
+
+
+</resources>

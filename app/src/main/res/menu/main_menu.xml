@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemJogador"
+        android:title="@string/itemJogador" />
+    <item
+        android:id="@+id/itemTime"
+        android:title="@string/itemTime" />
+</menu>
