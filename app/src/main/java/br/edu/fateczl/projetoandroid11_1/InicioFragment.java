@@ -10,7 +10,9 @@ import android.view.ViewGroup;
 
 
 public class InicioFragment extends Fragment {
-
+    /*
+     *@author:<Rodrigo Fortunato Martins Neves>
+     */
     private View view;
 
     public InicioFragment() {
