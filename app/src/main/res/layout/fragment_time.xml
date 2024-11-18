@@ -9,62 +9,61 @@
 
     <EditText
         android:id="@+id/etCodigoTime"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
         android:layout_marginStart="42dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="78dp"
         android:ems="10"
         android:hint="@string/etCodigoTime"
         android:importantForAutofill="no"
         android:inputType="numberSigned"
         android:textColorHint="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/etNomeTime"
-        app:layout_constraintEnd_toStartOf="@+id/btnBuscarTime"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvNome" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnBuscarTime"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnDeletarTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
         android:text="@string/btnDeletar"
-        app:layout_constraintBottom_toTopOf="@+id/tvResultadoTime"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toEndOf="@+id/btnCadastrarTime"
-        app:layout_constraintTop_toBottomOf="@+id/tvRa" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
 
     <Button
         android:id="@+id/btnListarTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:text="@string/btnListar"
         app:layout_constraintBottom_toTopOf="@+id/tvResultadoTime"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCadastrarTime"
+        app:layout_constraintVertical_bias="0.6" />
 
     <Button
         android:id="@+id/btnAtualizarTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
         android:text="@string/btnAtualizar"
-        app:layout_constraintBottom_toTopOf="@+id/tvResultadoTime"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnCadastrarTime"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etCidadeTime" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
 
     <Button
         android:id="@+id/btnBuscarTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="156dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
         android:text="@string/btnBuscar"
-        app:layout_constraintBaseline_toBaselineOf="@+id/etCodigoTime"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/etCodigoTime" />
+        app:layout_constraintStart_toEndOf="@+id/etCodigoTime"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome" />
 
     <TextView
         android:id="@+id/tvNome"
@@ -72,11 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="14dp"
-        android:layout_marginBottom="58dp"
         android:text="@string/nome"
-        app:layout_constraintBottom_toTopOf="@+id/etCodigoTime"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -85,12 +80,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
-        android:layout_marginBottom="412dp"
+        android:layout_marginEnd="57dp"
         android:text="@string/ra"
-        app:layout_constraintBottom_toTopOf="@+id/btnDeletarTime"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.38"
-        app:layout_constraintStart_toEndOf="@+id/tvNome"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
@@ -98,52 +90,48 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnCadastrar"
-        app:layout_constraintBottom_toTopOf="@+id/btnListarTime"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etCidadeTime"
-        app:layout_constraintVertical_bias="0.798" />
+        app:layout_constraintVertical_bias="0.271" />
 
     <EditText
         android:id="@+id/etNomeTime"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginBottom="45dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="77dp"
         android:ems="10"
         android:hint="@string/etNomeTime"
         android:importantForAutofill="no"
         android:inputType="text"
         android:textColorHint="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/etCidadeTime"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etCodigoTime" />
+        app:layout_constraintTop_toBottomOf="@+id/btnBuscarTime" />
 
     <EditText
         android:id="@+id/etCidadeTime"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginBottom="87dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="45dp"
         android:ems="10"
         android:hint="@string/etCidadeTime"
         android:importantForAutofill="no"
         android:inputType="text"
         android:textColorHint="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/btnAtualizarTime"
         app:layout_constraintStart_toStartOf="@+id/etNomeTime"
         app:layout_constraintTop_toBottomOf="@+id/etNomeTime" />
 
     <TextView
         android:id="@+id/tvResultadoTime"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginEnd="11dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="389dp"
+        android:layout_height="142dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnDeletarTime" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
